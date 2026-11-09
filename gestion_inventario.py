@@ -15,7 +15,7 @@ def fn_EliminarAgotados_lst(productos_lst):
     """
     for producto_dic in productos_lst:
         if producto_dic["stock"] == 0:
-            productos_lst.remove(producto_dic)
+            productos_lst.remove(producto_dic)#Aqui hay un error de que cuando elimina raton de la lista, luego no lee monitor y salta directamente a webcam y por eso no se elimina monitor de la lista. Pero no se como arreglarlo
 
     return productos_lst
 
