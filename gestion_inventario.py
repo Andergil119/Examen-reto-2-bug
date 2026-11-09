@@ -72,7 +72,7 @@ def fn_ProductosAReponer_lst(productos_lst):
     return a_reponer_lst
 
 
-def fn_RegistrarIncidencia_lst(mensaje_str, historial_lst=[]):
+def fn_RegistrarIncidencia_lst(mensaje_str, historial_lst=[]):#Esta funcion guarda todas las incidencias en incidencias_norte_lst y por eso devuelve mal el numero de incidencias en cada zona. Pero no se como solucionar el error
     """
     Añade una incidencia a un historial y lo devuelve.
     Si no se indica ningún historial, se empieza uno nuevo (vacío).
